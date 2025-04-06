@@ -1,0 +1,60 @@
+
+
+body {
+    
+    background-color: #e0f7fa; /* Warna latar belakang */
+    background-image: url('images/background.jpg'); /* Sesuaikan dengan nama file Anda */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card {
+    border-radius: 10px;
+    background-color: rgb(242, 239, 239);
+    box-shadow: 0 4px 8px rgba(246, 245, 245, 0.865);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #da3a72; /* Warna biru untuk judul */
+    font-weight: bold;
+}
+
+.btn {
+    font-size: 1.1rem;
+}
+
+.alert {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.prediction-result {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+}
+
+.graph-container {
+    margin-top: 20px;
+    text-align: center;
+}
